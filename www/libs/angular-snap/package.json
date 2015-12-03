@@ -1,0 +1,27 @@
+{
+  "name": "angular-snap",
+  "version": "1.8.5",
+  "author": {
+    "name": "jtrussell"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtrussell/angular-snap.js/issues"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "bugs": {
+    "url": "https://github.com/jtrussell/angular-snap.js/issues"
+  },
+  "main": "angular-snap.js",
+  "dependencies": {
+    "angular": "1.4.x || 1.2.x"
+  },
+  "readme": "# Angular-Snap.js\r\n\r\nThis repo holds built files for the [angular-snap.js](https://github.com/jtrussell/angular-snap.js) component.\r\n\r\nPlease direct issues and contributions there.\r\n",
+  "readmeFilename": "README.md",
+  "description": "This repo holds built files for the [angular-snap.js](https://github.com/jtrussell/angular-snap.js) component.",
+  "_id": "angular-snap@1.8.5",
+  "_from": "angular-snap@~1.8.1"
+}
