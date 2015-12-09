@@ -1,7 +1,7 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.helloworld" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.xplorerApp" version="1.0.0">
   <name>xplorerMobil</name>
   <description>General informational App</description>
-  <author href="http://phonegap.com" email="v.a.b.c@outlook.com">Victor Annier Barrios Canizares</author>
+  <author href="http://www.thecorrectway.org" email="v.a.b.c@outlook.com">Victor Annier Barrios Canizares</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
@@ -61,4 +61,9 @@
     <allow-intent href="itms:*"/>
     <allow-intent href="itms-apps:*"/>
   </platform>
+  <plugin name="com.phonegap.plugins.facebookconnect" spec="0.9.0">
+    <param name="APP_ID" value="com.phonegap.xplorerApp" />
+    <param name="APP_NAME" value="xplorerApp" />
+  </plugin>
+  
 </widget>
